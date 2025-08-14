@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #e1bee7);
+    margin: 0;
+    padding: 0;
+    display: flex;               
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
+
+.Invitacion {
+ background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;                  
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #a23ec1;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #c75de6;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 0.95em;
+    }
+}
+
+.btn {
+    background-color: #ce96ff; 
+    color: rgb(1, 1, 1);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+  }
+   .btn:hover {
+    background-color: #751fb3;
+   }
+
+   button {
+    background-color: #b85de2;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #d295f8;
+}
